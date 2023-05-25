@@ -1,0 +1,9 @@
+0 - php -S localhost:8006
+1 - explicar a pratica (microframework MVC para API) aula 1 - roteadores(rotas)
+2 - fluxo de composição "index.php" -> composer -> autoload(mostrar como laravel faz o autoload) -> namespaces
+3 - fluxo de execução "index.php" -> pasta "core" -> aplication -> router -> request
+4 - propor exercicios e melhorias: 
+    4.1 - Função na request para obter parametros via query string
+    4.2 - Processar requisições e rotas POST
+    4.2 - Função na request para obter dados do body de uma request POST
+5 - Próxima reunião: Implementação de controllers, processamento de requests POST

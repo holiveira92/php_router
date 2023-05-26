@@ -7,3 +7,20 @@
     4.2 - Processar requisições e rotas POST
     4.2 - Função na request para obter dados do body de uma request POST
 5 - Próxima reunião: Implementação de controllers, processamento de requests POST
+
+26/05/2023
+0.1 - verificar xdebug com mateus
+0 - refatorar código da última aula
+1 - adicionar leitura de dados do metodo POST
+2 - construir controllers
+3 - refatorar com interfaces e classes abstratas
+4 - testar com postman
+5 - proximos passos - middleware, auth e outros
+
+26/05/2023
+0 - refatorar index.php( remover rotas antigas, criar helper para pre , inserir tratamento header para JSOn)
+1 - remover rotas antigas e criar novas rotas com a instancia do controller(HomeController)
+2 - refatorar router.php para get, post e criar classe Response(injetar no aplication)
+3 - refatorar request.php para obter dados get e post(utilizar postman para testar)
+4 - introduzir conceito de herança refatorando o controller para herdar de base controller e interfaces
+5 - proximos passos - separar arquivos de rotas , criar middleware, auth e outros
